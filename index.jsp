@@ -21,9 +21,9 @@ ResultSet rs02 = null;
 
 <%
 //String acessar= "";
-if(request.getParameter("origem")!=null){
+//if(request.getParameter("origem")!=null){
    session.setAttribute("acesso", "ok");
-}
+//}
 %>
 
 
@@ -34,7 +34,6 @@ if(request.getParameter("erro") != null){
  erroSessao = request.getParameter("erro");
 }
 %>
-
 
 <%
 //Verifica se veio o parametro
